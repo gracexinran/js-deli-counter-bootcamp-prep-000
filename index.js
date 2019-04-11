@@ -1,5 +1,4 @@
-function takeANumber(line,person){
-  var katzDeliLine = line;
+function takeANumber(katzDeliLine,person){
   katzDeliLine.push(person);
   var i = katzDeliLine.indexOf(person) + 1;
   return `Welcome, ${person}. You are number ${i} in line.`
