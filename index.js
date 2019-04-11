@@ -15,7 +15,7 @@ function nowServing(katzDeliLine){
 }
 
 function print(){
-  var a="There is nobody waiting to be served!"
+  var a="There is obody waiting to be served!"
   console.log(a)
   return a
 }
